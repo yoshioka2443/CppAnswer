@@ -6,7 +6,7 @@ BUILD_TYPE			:= Debug
 
 PROJECT				:= Unit1
 
-TARGET				:= main
+TARGET				:= main_$(PROJECT)
 SRCDIR				:= src/$(PROJECT)
 
 BUILDDIR			:= obj
