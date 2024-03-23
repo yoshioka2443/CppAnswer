@@ -10,5 +10,6 @@ void ArrowTest(ScoreBoard *p){
 int main(){
     ScoreBoard board = {"Tatsuya", 35, 100, 89};
     ArrowTest(&board);
+    std::cout << "aaaaaa";
     return 0;
 }
